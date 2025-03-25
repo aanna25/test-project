@@ -4,36 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header></header>
     <main>
       <section class="about-us">
         <div class="container">
-          <h2 class="about-us-section-title">About Us</h2>
-          <div class="about-us-text-content">
-            <p class="about-us-section-paragraph">
-              Welcome to our premium watch collection, where luxury and style
-              meet functionality and precision. Our selection of timepieces
-              embodies the very best in Swiss craftsmanship and engineering,
-              ensuring that you'll always have a reliable and stylish accessory
-              on your wrist.
-            </p>
-            <p class="about-us-section-paragraph">
-              At our premium watch collection, we believe that a watch is more
-              than just a timekeeping device - it's a statement piece that
-              reflects your personality and style. So why settle for anything
-              less than the best?
-            </p>
-            <a class="view-catalog-link" href="#">View catalog</a>
-          </div>
-          <div class="about-us-img-wrapper">
-            <picture
-              ><source media="(min-width: 1280px)" srcset="" />
-              <source media="(min-width: 768px)" srcset="" />
-              <source media="(max-width: 767px)" srcset="" />
-              <img src="" alt="garmin-watch" width="530" />
-            </picture>
+          <div class="test">
+            <div class="about-us-text-content">
+              <h2 class="about-us-section-title">About Us</h2>
+              <p class="about-us-section-paragraph">
+                Welcome to our premium watch collection, where luxury and style
+                meet functionality and precision. Our selection of timepieces
+                embodies the very best in Swiss craftsmanship and engineering,
+                ensuring that you'll always have a reliable and stylish
+                accessory on your wrist.
+              </p>
+              <p class="about-us-section-paragraph">
+                At our premium watch collection, we believe that a watch is more
+                than just a timekeeping device - it's a statement piece that
+                reflects your personality and style. So why settle for anything
+                less than the best?
+              </p>
+              <a class="view-catalog-link" href="#">View catalog</a>
+            </div>
+            <div class="about-us-img-wrapper">
+              <picture
+                ><source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/watch-desk-min.jpg    1x,
+                    ./images/watch-desk@2x-min.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/watch-tab-min.jpg    1x,
+                    ./images/watch-tab@2x-min.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/watch-mob-min.jpg    1x,
+                    ./images/watch-mob@2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/watch-desk-min.jpg "
+                  alt="garmin-watch"
+                  width="530"
+                />
+              </picture>
+            </div>
           </div>
         </div>
       </section>
