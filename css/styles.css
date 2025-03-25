@@ -1,0 +1,71 @@
+/* about-us-mobile */
+
+.about-us {
+}
+.container {
+}
+.about-us-section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.about-us-text-content {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+}
+
+.about-us-section-paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.view-catalog-link {
+  min-width: 160px;
+  height: 48px;
+  padding: 15px 38px;
+  background-color: #3350e9;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fbfbfb;
+  transition: background-color ();
+}
+
+.view-catalog-link:hover,
+.view-catalog-link:focus {
+  background-color: #1f3cd4;
+}
+
+.about-us-img-wrapper {
+}
+
+/* end-about-us-mobile */
+
+/* about-us-tab */
+@media screen and (min-width: 768px) {
+  .about-us .about-us-section-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .about-us .about-us-section-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  .about-us-text-content {
+    border-radius: 50px;
+  }
+}
+/* end-about-us-tab */
+
+/* about-us-desk */
+@media screen and (min-width: 1280px) {
+}
+/* end-about-us-desk */
