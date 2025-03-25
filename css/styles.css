@@ -92,10 +92,11 @@ a {
   background-color: #1f3cd4;
 }
 
-.about-us-img {
-  overflow: hidden;
-  border-radius: 30px;
+.about-us-img img {
   width: 335px;
+  height: 446px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 /* end-about-us-mobile */
@@ -149,9 +150,10 @@ a {
   }
 
   .about-us-img img {
-    width: 100%;
-    height: auto;
-    max-width: 704px;
+    width: 704px;
+    height: 512px;
+    object-fit: cover;
+    border-radius: 30px;
   }
 }
 /* end-about-us-tab */
@@ -198,8 +200,10 @@ a {
   }
 
   .about-us-img img {
-    width: 100%;
-    height: auto;
+    width: 530px;
+    height: 532px;
+    object-fit: cover;
+    border-radius: 30px;
   }
 }
 /* end-about-us-desk */
