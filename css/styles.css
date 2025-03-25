@@ -29,9 +29,9 @@ a {
 }
 
 .container {
-  max-width: 335px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 /* about-us-mobile */
@@ -95,6 +95,7 @@ a {
 .about-us-img {
   overflow: hidden;
   border-radius: 30px;
+  width: 335px;
 }
 
 /* end-about-us-mobile */
@@ -102,7 +103,8 @@ a {
 /* about-us-tab */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 768px;
+    padding: 0 32px;
   }
 
   .about-us-content-wrapper {
@@ -146,6 +148,24 @@ a {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .about-us-content-wrapper {
+    width: 100%;
+    flex-direction: row;
+    column-gap: 40px;
+  }
+  .view-catalog-link {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  .about-us-text-content {
+  }
+
+  .about-us .about-us-section-paragraph {
+    width: 460px;
   }
 }
 /* end-about-us-desk */
